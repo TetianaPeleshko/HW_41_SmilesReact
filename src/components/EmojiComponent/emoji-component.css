@@ -1,0 +1,45 @@
+.global-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  height: 95px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e0f3;
+  border: 1px solid #9c56f8;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.smile-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
+}
+
+.vote-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
+}
+
+.vote-score {
+  font-size: 22px;
+  font-weight: bold;
+  color: #9c56f8;
+}
+
+.add-smile, .show-results {
+  margin-top: 20px;
+}
+
+.add-cmile-button {
+  background-color: #d8c5f1;
+  border: 1px solid #9c56f8;
+  border-radius: 5px;
+}
